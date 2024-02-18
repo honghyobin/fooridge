@@ -1,20 +1,21 @@
 p{
     text-align: center;
 }
+
 .signupinput{
     margin-top: 45px;
 }
 .signupinput>label,.password label{
-    margin-left: 22px;
+    margin-left: 20px;
 }
 .signupinput>input{
     margin-top: 10px;
     margin-bottom: 25px;
-    margin-left: 22px;
+    margin-left: 13px;
     width: 317px;
     height: 44px;
 }
-.signupinput>.check{
+.signupinput>.check, .addressdiv button{
     width: 104px;
     height: 44px;
     background-color: #3faf43;
@@ -31,13 +32,13 @@ p{
 .passwordcondition{
     margin-top: 2px;
     font-size: 8pt;
-    margin-left: -30px;
+    margin-left: -45px;
     margin-bottom: 30px;
 }
 .signupinput > .password input {
     margin-top: 10px;
     margin-bottom: 5px;
-    margin-left: 22px;
+    margin-left: 13px;
     width: 317px;
     height: 44px;
 }
@@ -48,7 +49,6 @@ p{
     width: 336px;
     height: 48px;
     background-color: #3faf43;
-    margin-left: 10px;
     color: #fff;
     border-radius: 10px;
     border-style: solid;
@@ -57,7 +57,7 @@ p{
 }
 .email>label{
     margin-bottom: 30px;
-    margin-left: 22px;
+    margin-left: 20px;
 }
 .emailinput>input{
     height: 44px;
@@ -84,17 +84,18 @@ p{
 }
  
 .addressdiv input{
-    margin-left: 22px;
-    width: 220px;
+    margin-left: 13px;
+    width: 201px;
     height: 44px;
     margin-top: 0px;
 }
 .addressdiv button{
-    width: 100px;
+    width: 104px;
     height: 44px;
+    margin-left: 10px;
 }
 .email input{
-    margin-left: 22px;
+    margin-left: 13px;
     margin-top: 10px;
     width: 317px;
     height: 44px;
