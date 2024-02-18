@@ -17,9 +17,6 @@ export default function Signin() {
   const onSubmitHandler = (event) => {
     event.preventDefault();
 
-    // 로그인 처리 로직을 여기에 추가하세요.
-
-    // 예시: 아래는 간단한 출력 예시입니다.
     console.log("Email:", Email);
     console.log("Password:", Password);
   };
@@ -32,7 +29,7 @@ export default function Signin() {
       </div>
       <form style={{ display: 'flex', flexDirection: 'column'}} onSubmit={onSubmitHandler}>
         <div className="input">
-            <input type='email' value={Email} onChange={onEmailHandler} placeholder="Email" />
+            <input type='email' value={Email} onChange={onEmailHandler} placeholder="이메일" />
             <input type='password' value={Password} onChange={onPasswordHandler} placeholder="비밀번호" />
         </div>
         <br />
